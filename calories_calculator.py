@@ -212,7 +212,7 @@ class CalculatorApp:
 
         pfc_label = Label(
             main_calculator,
-            text=f"Your goal is to {self.goal} weight. Your daily intake of nutrients should be:\n"
+            text=f"Your goal is to {self.goal.get()} weight. Your daily intake of nutrients should be:\n"
                  f"{self.user_proteins} gram of proteins\n"
                  f"{self.user_carbs} gram of carbohydrates\n"
                  f"{self.user_fats} gram of fats", background="white"
